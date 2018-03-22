@@ -1,0 +1,30 @@
+{
+  "name": "simple-page-splitter",
+  "version": "0.0.1",
+  "description": "A simple splitter to split inline stylesheet and javascript from html.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf ./lib/*",
+    "build": "babel ./src --out-dir ./lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoyucoding/simple-page-splitter.git"
+  },
+  "author": "xiaoyucoding",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xiaoyucoding/simple-page-splitter/issues"
+  },
+  "homepage": "https://github.com/xiaoyucoding/simple-page-splitter#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "dependencies": {
+    "fs-extra": "^5.0.0"
+  }
+}

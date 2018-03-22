@@ -1,0 +1,3 @@
+var page = {
+      name: 'index'
+    };
