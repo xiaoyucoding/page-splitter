@@ -1,6 +1,6 @@
 {
   "name": "page-splitter",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A simple splitter to split inline stylesheet and javascript from html.",
   "main": "index.js",
   "directories": {
